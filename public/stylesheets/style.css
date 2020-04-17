@@ -19,6 +19,12 @@
 	box-shadow: 5px 10px 8px 10px #888888;
 }
 
+@media screen and (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
+}
+
 .Contact-buttons {
 	display: flex;
 	justify-content: center;
